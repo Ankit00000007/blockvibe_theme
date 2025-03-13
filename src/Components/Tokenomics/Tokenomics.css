@@ -1,0 +1,716 @@
+/* Tokenomics.css */
+.tokenomics-container {
+  position: relative;
+  width: 100%;
+  /* height: 100vh; */
+  background-color: #000000;
+  overflow: hidden;
+}
+
+.tokenomics-background {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, #000000 0%, #0E0B19 100%);
+  background-image: radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px);
+  background-size: 50px 50px;
+}
+
+.tokenomics-title {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  color: white;
+  z-index: 10;
+}
+
+.tokenomics-heading {
+  font-family: 'Urbanist', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.tokenomics-description {
+  font-family: 'Orbit', sans-serif;
+  font-size: 16px;
+  margin-top: 8px;
+  max-width: 450px;
+  opacity: 0.8;
+}
+
+.center-circle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url(../../Images/token_circle_mob.webp);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.tokenomics-img{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+        margin: 100px auto;
+}
+
+.outer-ring {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  border: 2px solid #22dddd;
+  opacity: 0.7;
+  box-shadow: 0 0 40px #0ff, inset 0 0 20px #0ff;
+}
+
+.middle-ring {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 2px solid #dd22dd;
+  opacity: 0.7;
+  box-shadow: 0 0 30px #f0f, inset 0 0 15px #0ff;
+}
+
+.inner-ring {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid #ee00ee;
+  opacity: 0.9;
+  box-shadow: 0 0 30px #f0f, inset 0 0 20px #f0f;
+}
+
+.core-circle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ee00ee;
+  opacity: 0.8;
+  box-shadow: 0 0 40px #f0f;
+}
+
+.token-section {
+  position: absolute;
+}
+
+.token-section.presale {
+  top: 38%;
+  left: 32px;
+  text-align: right;
+}
+
+.token-section.rewards {
+  top: calc(60% - 4px);
+  left: 98px;
+  text-align: right;
+}
+
+.token-section.referrals {
+  top: 75%;
+  left: 32px;
+  text-align: right;
+}
+
+.token-section.airdrop {
+  top: 28%;
+  right: 220px;
+}
+
+.token-section.presale-bonus {
+      top: 44%;
+    right: 190px;
+
+}
+
+.token-section.team {
+      top: 60%;
+    right: 250px;
+}
+
+.token-section.marketing {
+  top: 66%;
+  right: 32px;
+}
+
+.token-section.liquidity {
+  top: 75%;
+  right: 32px;
+}
+
+.token-label {
+  color: #FF9800;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: 'Urbanist', sans-serif;
+}
+
+.token-value {
+  color: white;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 14px;
+}
+
+.token-percentage {
+  color: white;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.line-connector {
+  position: absolute;
+  top: 50%;
+  margin-top: 16px;
+}
+
+.line-connector.left {
+  left: 100%;
+}
+
+.line-connector.right {
+  right: 100%;
+}
+
+.total-supply {
+  position: absolute;
+  bottom: 32px;
+  left: 64px;
+  background: linear-gradient(to right, rgba(138, 43, 226, 0.3), rgba(0, 255, 255, 0.3));
+  border-radius: 12px;
+  padding: 8px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.total-supply-text {
+  font-family: monospace;
+  color: white;
+  font-size: 16px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .outer-ring {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .middle-ring {
+    width: 220px;
+    height: 220px;
+  }
+  
+  .inner-ring {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .core-circle {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .tokenomics-heading {
+    font-size: 48px;
+  }
+  
+  .token-percentage {
+    font-size: 48px;
+  }
+  
+  .token-section.presale,
+  .token-section.referrals,
+  .token-section.airdrop,
+  .token-section.presale-bonus,
+  .token-section.marketing,
+  .token-section.liquidity {
+    left: 8px;
+    right: 8px;
+  }
+  
+  .token-section.rewards,
+  .token-section.team {
+    left: 16px;
+    right: 16px;
+  }
+}
+
+/* Tablet Styles (992px and below) */
+@media screen and (max-width: 992px) {
+  .tokenomics-container {
+    padding: 60px 20px;
+    position: relative;
+  }
+  
+  .tokenomics-title {
+    width: 90%;
+    margin: 0 auto 40px;
+  }
+  
+  .tokenomics-heading {
+    font-size: 28px;
+  }
+  
+  .tokenomics-description {
+    font-size: 16px;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  
+  .tokenomics-img {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .tokenomics-img img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Adjust token sections */
+  .token-section {
+    width: 180px;
+  }
+  
+  .token-label {
+    font-size: 16px;
+  }
+  
+  .token-value {
+    font-size: 14px;
+  }
+  
+  .token-percentage {
+    font-size: 14px;
+  }
+  
+  /* Position adjustments for token sections */
+  .presale {
+    top: 25%;
+    left: 2%;
+  }
+  
+  .rewards {
+    top: 45%;
+    left: 2%;
+  }
+  
+  .airdrop {
+    top: 25%;
+    right: 2%;
+  }
+  
+  .presale-bonus {
+    top: 40%;
+    right: 2%;
+  }
+  
+  .team {
+    top: 55%;
+    right: 2%;
+  }
+  
+  /* Line connector adjustments */
+  .line-connector.left svg,
+  .line-connector.right svg {
+    width: 100px;
+  }
+  
+  .total-supply {
+    padding: 15px;
+    bottom: 40px;
+    width: 90%;
+    left: 5%;
+  }
+  
+  .total-supply-text {
+    font-size: 16px;
+  }
+}
+
+/* Mobile Styles (576px and below) */
+@media screen and (max-width: 576px) {
+  .tokenomics-container {
+    padding: 40px 15px 300px; /* Extended padding bottom to accommodate stacked elements */
+    overflow: hidden;
+  }
+  
+  .tokenomics-title {
+    width: 100%;
+  }
+  
+  .tokenomics-heading {
+    font-size: 24px;
+  }
+  
+  .tokenomics-description {
+    font-size: 14px;
+    max-width: 100%;
+  }
+  
+  .tokenomics-img {
+    width: 90%;
+    margin: 20px auto;
+  }
+  
+  /* Stack token sections vertically */
+  .token-section {
+    position: relative;
+    width: 100%;
+    max-width: 280px;
+    margin: 15px auto;
+    left: 0 !important;
+    right: 0 !important;
+    text-align: center;
+  }
+  
+  /* Reset and reposition token sections */
+  .presale, .rewards, .airdrop, .presale-bonus, .team {
+    position: static;
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  /* Hide line connectors on mobile */
+  .line-connector {
+    display: none;
+  }
+  
+  .token-label {
+    font-size: 16px;
+    margin-bottom: 4px;
+  }
+  
+  .token-value {
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+  
+  .token-percentage {
+    font-size: 14px;
+  }
+  
+  /* Add visual separators between token sections */
+  .token-section::after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.3);
+    margin: 15px auto 0;
+  }
+  
+  .total-supply {
+    width: 90%;
+    left: 5%;
+    bottom: 20px;
+    padding: 12px;
+  }
+  
+  .total-supply-text {
+    font-size: 14px;
+  }
+  
+  /* Custom layout for mobile */
+  @supports (display: grid) {
+    .tokenomics-container {
+      display: grid;
+      grid-template-rows: auto auto auto auto;
+      grid-gap: 20px;
+    }
+    
+    .tokenomics-title {
+      grid-row: 1;
+    }
+    
+    .tokenomics-img {
+      grid-row: 2;
+    }
+    
+    .token-section {
+      position: relative;
+      left: auto !important;
+      right: auto !important;
+      top: auto !important;
+    }
+    
+    /* Container for all token sections */
+    .tokenomics-container::after {
+      content: "";
+      display: block;
+      grid-row: 3;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .total-supply {
+      grid-row: 4;
+      position: relative;
+      bottom: auto;
+      margin-top: 20px;
+    }
+  }
+}
+
+/* Tablet Styles (992px and below) */
+@media screen and (max-width: 992px) {
+  .tokenomics-container {
+    padding: 60px 20px;
+    position: relative;
+    min-height: 800px; /* Ensure enough space for all content */
+  }
+  
+  .tokenomics-title {
+    width: 90%;
+    margin: 0 auto 40px;
+  }
+  
+  .tokenomics-heading {
+    font-size: 28px;
+  }
+  
+  .tokenomics-description {
+    font-size: 16px;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  
+  .tokenomics-img {
+    width: 70%;
+    margin: 60px auto;
+    text-align: center;
+  }
+  
+  .tokenomics-img img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Adjust token sections */
+  .token-section {
+    width: 180px;
+  }
+  
+  .token-label {
+    font-size: 16px;
+  }
+  
+  .token-value {
+    font-size: 14px;
+  }
+  
+  .token-percentage {
+    font-size: 14px;
+  }
+  
+  /* Position adjustments for token sections */
+  .presale {
+    top: 25%;
+    left: 2%;
+  }
+  
+  .rewards {
+    top: 45%;
+    left: 2%;
+  }
+  
+  .airdrop {
+    top: 32% !important;
+    right: 2% !important;
+  }
+  
+  .presale-bonus {
+    top: 46% !important;
+    right: 2% !important;
+  }
+  
+  .team {
+    top: 55%;
+    right: 2% !important;
+  }
+  
+  /* Line connector adjustments */
+  .line-connector.left svg,
+  .line-connector.right svg {
+    width: 100px;
+  }
+  
+  .total-supply {
+    padding: 15px;
+    bottom: 40px;
+    width: 90%;
+    left: 5%;
+  }
+  
+  .total-supply-text {
+    font-size: 16px;
+  }
+}
+
+/* Mobile Styles (576px and below) */
+@media screen and (max-width: 768px) {
+  .tokenomics-container {
+    padding: 40px 15px;
+    position: relative;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .token-wrapper{
+    display: flex
+;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+  }
+  
+  .tokenomics-title {
+    /* width: 100%; */
+    text-align: center;
+    order: 1;
+    margin-bottom: 30px;
+  }
+  
+  .tokenomics-heading {
+    font-size: 24px;
+  }
+  
+  .tokenomics-description {
+    font-size: 14px;
+    max-width: 100%;
+  }
+  
+  /* Center the image and reduce size */
+  .tokenomics-img {
+    width: 80%;
+    margin: 30px auto;
+    order: 2;
+  }
+  
+  .tokenomics-img img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Reset all positioning for token sections */
+  .token-section {
+    position: static;
+    width: 90%;
+    max-width: 320px;
+    margin: 15px auto;
+    padding: 10px 15px;
+    border: 1px solid rgba(255, 152, 0, 0.3);
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Order all sections */
+  .presale {
+    order: 3;
+  }
+  
+  .rewards {
+    order: 4;
+  }
+  
+  .airdrop {
+    order: 5;
+  }
+  
+  .presale-bonus {
+    order: 6;
+  }
+  
+  .team {
+    order: 7;
+  }
+  
+  /* Hide line connectors */
+  .line-connector {
+    display: none;
+  }
+  
+  .token-label {
+    font-size: 16px;
+    margin-bottom: 4px;
+    font-weight: bold;
+    color: #FF9800;
+  }
+  
+  .token-value {
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+  
+  .token-percentage {
+    font-size: 14px;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .total-supply {
+    position: static;
+    width: 90%;
+    margin: 30px auto 20px;
+    order: 8;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .total-supply-text {
+    font-size: 16px;
+    font-weight: bold;
+  }
+}
+
+/* Small Mobile Adjustments */
+@media screen and (max-width: 375px) {
+  .tokenomics-container {
+    padding: 30px 10px;
+  }
+  
+  .tokenomics-heading {
+    font-size: 22px;
+  }
+  
+  .tokenomics-img {
+    width: 90%;
+  }
+  
+  .token-section {
+    width: 95%;
+    padding: 8px 12px;
+  }
+  
+  .token-label {
+    font-size: 15px;
+  }
+  
+  .token-value, .token-percentage {
+    font-size: 13px;
+  }
+}

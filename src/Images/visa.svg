@@ -1,0 +1,17 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icons8_Magnetic_Card 1">
+<path id="Vector" d="M28.7487 6H3.2487C2.19003 6 1.33203 6.858 1.33203 7.91667V24.0833C1.33203 25.142 2.19003 26 3.2487 26H28.7487C29.8074 26 30.6654 25.142 30.6654 24.0833V7.91667C30.6654 6.858 29.8074 6 28.7487 6Z" fill="url(#paint0_linear_1_1678)"/>
+<path id="Vector_2" d="M30.6654 9.3335H1.33203V12.0002H30.6654V9.3335Z" fill="url(#paint1_linear_1_1678)"/>
+<path id="Vector_3" d="M27.9987 16.0002H3.9987C3.6307 16.0002 3.33203 15.7015 3.33203 15.3335V14.0002C3.33203 13.6322 3.6307 13.3335 3.9987 13.3335H27.9987C28.3667 13.3335 28.6654 13.6322 28.6654 14.0002V15.3335C28.6654 15.7015 28.3667 16.0002 27.9987 16.0002Z" fill="#A8E7FF"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1_1678" x1="13.582" y1="7.374" x2="19.164" y2="27.2973" gradientUnits="userSpaceOnUse">
+<stop stop-color="#32BDEF"/>
+<stop offset="1" stop-color="#1EA2E4"/>
+</linearGradient>
+<linearGradient id="paint1_linear_1_1678" x1="1.33203" y1="10.6668" x2="30.6654" y2="10.6668" gradientUnits="userSpaceOnUse">
+<stop stop-color="#45494D"/>
+<stop offset="1" stop-color="#6D7479"/>
+</linearGradient>
+</defs>
+</svg>

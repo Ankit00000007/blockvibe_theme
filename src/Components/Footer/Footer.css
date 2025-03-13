@@ -1,0 +1,179 @@
+/* BlockVibeFooter.css */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbit&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+.bv-footer-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.578), rgba(0, 0, 0, 0.603)), url(../../Images/footer/bg-main.webp);
+      backdrop-filter: invert(1);
+  color: white;
+  /* font-family: 'Roboto', sans-serif; */
+  padding: 2rem 1rem;
+  position: relative;
+  /* border-radius: 12px; */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  font-family: 'Urbanist', sans-serif;
+}
+
+.footer-wrapper {
+  background-image: url(../../Images/footer/bg.webp);
+  color: white;
+  background-size: cover;
+  
+}
+
+.footer-logo-div{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-logo{
+    width: 200px;
+}
+
+
+
+.bv-footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  font-family: 'Urbanist', sans-serif;
+}
+
+.bv-footer-section {
+  padding: 1rem;
+  font-family: 'Urbanist', sans-serif;
+}
+
+.bv-story-section {
+  flex: 0 0 100%;
+}
+
+.bv-links-section, .bv-help-section {
+  flex: 0 0 100%;
+}
+
+.bv-section-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.bv-story-text {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  opacity: 0.8;
+  font-family: 'Urbanist', sans-serif;
+}
+
+.bv-quick-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.bv-link-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bv-link-label {
+  opacity: 0.8;
+  font-family: 'Urbanist', sans-serif;
+}
+
+.bv-link-text {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: 'Urbanist', sans-serif;
+}
+
+.bv-help-text {
+  line-height: 1.6;
+  opacity: 0.8;
+  font-family: 'Urbanist', sans-serif;
+}
+
+.bv-email-link {
+  color: #f0a500;
+  text-decoration: none;
+}
+
+.bv-footer-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  padding-top: 1.5rem;
+  gap: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.bv-copyright {
+  font-size: 0.9rem;
+  opacity: 0.6;
+}
+
+.bv-social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.bv-social-link {
+  color: white;
+  text-decoration: none;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color 0.3s;
+}
+
+.bv-social-link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* For the social icons - in production you would use a proper icon font */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-brands-400.woff2') format('woff2');
+}
+
+.bv-icon {
+  font-family: 'FontAwesome';
+  font-size: 1rem;
+}
+
+/* Media queries for responsive design */
+@media (min-width: 768px) {
+  .bv-story-section {
+    flex: 0 0 45%;
+  }
+  
+  .bv-links-section {
+    flex: 0 0 25%;
+  }
+  
+  .bv-help-section {
+    flex: 0 0 25%;
+  }
+  
+  .bv-footer-bottom {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 992px) {
+  .bv-footer-container {
+    padding: 3rem 2rem;
+  }
+}

@@ -1,0 +1,619 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbit&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+      border: 0 solid #e5e7eb;
+  box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
+  --tw-border-spacing-x: 0;
+    --tw-border-spacing-y: 0;
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-pan-x: ;
+    --tw-pan-y: ;
+    --tw-pinch-zoom: ;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-gradient-from-position: ;
+    --tw-gradient-via-position: ;
+    --tw-gradient-to-position: ;
+    --tw-ordinal: ;
+    --tw-slashed-zero: ;
+    --tw-numeric-figure: ;
+    --tw-numeric-spacing: ;
+    --tw-numeric-fraction: ;
+    --tw-ring-inset: ;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(59, 130, 246, .5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    --tw-blur: ;
+    --tw-brightness: ;
+    --tw-contrast: ;
+    --tw-grayscale: ;
+    --tw-hue-rotate: ;
+    --tw-invert: ;
+    --tw-saturate: ;
+    --tw-sepia: ;
+    --tw-drop-shadow: ;
+    --tw-backdrop-blur: ;
+    --tw-backdrop-brightness: ;
+    --tw-backdrop-contrast: ;
+    --tw-backdrop-grayscale: ;
+    --tw-backdrop-hue-rotate: ;
+    --tw-backdrop-invert: ;
+    --tw-backdrop-opacity: ;
+    --tw-backdrop-saturate: ;
+    --tw-backdrop-sepia: ;
+    --tw-contain-size: ;
+    --tw-contain-layout: ;
+    --tw-contain-paint: ;
+    --tw-contain-style: ;
+    --tw-bg-opacity: 1;
+    --tw-rotate: -30deg;
+}
+
+
+.gamepod-cnt{
+    padding-top: 5rem;
+        padding-bottom: 5rem;
+            padding-left: 0.75rem;
+    padding-right: 0.75rem;
+        background-repeat: no-repeat;
+    background-size: cover;
+    --tw-bg-opacity: 1;
+    background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+        position: relative;
+}
+
+.gamepod-header{
+            display: flex;
+        gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.gamepod-heading{
+    font-size: 4rem;
+        line-height: 1;
+        color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    font-weight: 700;
+        text-transform: uppercase;
+            display: flex
+;
+flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.gamepod-heading1{
+    font-size: 2.25rem;
+        line-height: 2.5rem;
+        text-align: left;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+        text-transform: uppercase;
+    font-weight: 700;
+
+}
+
+.gamepod-heading-break{
+    display: block;
+}
+
+.gamepod-bg-img-div{
+        background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../../Images/casino-empire/bg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+
+}
+
+.gamepod-inside-div{
+        position: relative;
+        max-width: 56rem;
+            margin-left: auto;
+    margin-right: auto;
+                z-index: 20;
+}
+
+.gamepod-sub-inside{
+    margin-top: 2.5rem;
+}
+
+.gamepod-flex{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.gamepod-flex-inside{
+    width: fit-content;
+    position: relative;
+
+}
+
+.gamepod-heading-img{
+        color: transparent;
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+        inset: 0;
+    position: absolute;
+        display: block;
+    vertical-align: middle;
+}
+
+.gamepod-main-heading{
+        position: relative;
+        padding-left: 2.5rem;
+    padding-right: 2.5rem;
+        padding-bottom: 0.75rem;
+        padding-top: 1rem;
+            color: white;
+}
+
+.gamepod-img-count{
+    position: relative;
+}
+
+.gamepod-count-inside{
+    display: flex
+;
+position: absolute; 
+        gap: 0.75rem;
+        top: 1rem;
+        left: 2.5rem;
+    align-items: center;
+    width: fit-content;
+}
+
+.gamepod-span{
+    height: 2rem;
+    width: 0.5rem;
+    cursor: pointer;
+    background-color: rgb(0 206 206 / var(--tw-bg-opacity));
+        border-radius: 0.125rem;
+            transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+        
+        }
+
+        .gamepod-count-below{
+            top: 0;
+    gap: 0.75rem;
+    align-items: center;
+    width: fit-content;
+    top: 0;
+    gap: 0.75rem;
+    align-items: center;
+    width: fit-content;
+    display: flex
+;
+    z-index: 10;
+    right: 0;
+    position: absolute;
+        }
+
+        .gamepod-count-below-span{
+                    display: block;
+        }
+
+        .gamepod-count-below-span svg{
+                color: #00dac830;
+    font-size: 4.5rem;
+    line-height: 1;
+        display: block;
+    vertical-align: middle;
+        }
+
+        .gamepod-counting{
+                    padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        padding-top: 0.25rem;
+        padding-bottom: 0.25rem;
+        color: rgb(0 184 184 / var(--tw-text-opacity));
+    text-align: center;
+    position: relative;
+        }
+
+        .gamepod-counting-inside-img{
+                color: transparent;
+}
+.object-fill {
+    object-fit: fill;
+    user-select: none;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    position: absolute;
+    display: block;
+    vertical-align: middle;
+        }
+
+        .count-span{
+            font-size: 1rem;
+        line-height: 1.5rem;
+    vertical-align: 0;
+        position: relative;
+        }
+
+        .gamepod-gradient-div{
+             display: flex
+;
+            justify-content: center;
+    align-items: center;
+    user-select: none;
+   
+    position: relative;
+    box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+        }
+
+        .gamepod-gradient-div-span{
+                    width: 140px;
+        height: 200px;
+            color: rgb(0 145 145 / var(--tw-text-opacity));
+            cursor: pointer;
+                display: inline-block;
+                    vertical-align: 0;
+        }
+
+        .gamepod-gradient-div-span svg{
+            display: block;
+    vertical-align: middle;
+        }
+
+        .gamepod-avtar-img-div{
+            height: 100%;
+        }
+
+        .gamepod-avtar-img{
+                color: transparent;
+        width: 70px;
+            background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+    border-top-left-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+    height: auto;
+    display: block;
+    vertical-align: middle;
+        }
+
+        .gamepod-left-wrap-below{
+            box-shadow: rgba(0, 0, 0, 1) 0px 19px 38px, rgba(0, 0, 0, 1) 0px 15px 12px;
+        width: 41.666667%;
+        aspect-ratio: 1 / 1;
+    position: relative;
+        }
+
+        .gamepod1{
+            color: transparent;
+    object-position: center;
+    object-fit: contain;
+     display: block;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    position: absolute;
+        }
+
+        .gamepod1-below{
+            background: radial-gradient(74% 63% at 48% 38%, rgba(0, 0, 0, 0) 52.1%, #000000 100%);
+    inset: 0;
+    position: absolute;
+        }
+
+        .gamepod-avtar-img1{
+                color: transparent;
+        width: 60px;
+        width: 4rem;
+    background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+height: auto;
+display: block;
+    vertical-align: middle;
+        }
+
+        .gamepod-gradient-div-span, .gamepod-avtar-img1-span{
+            width: 140px;
+        height: 200px;
+            --tw-text-opacity: 1;
+    color: rgb(0 145 145 / var(--tw-text-opacity));
+    cursor: pointer;
+    display: inline-block;
+        }
+
+        .gamepod-gradient-div-span:hover, .gamepod-avtar-img1-span:hover{
+                --tw-text-opacity: 1;
+
+    color: rgb(80 246 246 / var(--tw-text-opacity));
+        }
+
+        .gamepod-avtar-img1-span-svg{
+                display: block;
+    vertical-align: middle; 
+        }
+
+        .gamepod-avtar-option-div{
+            display: flex;
+            gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+        box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+    
+        }
+
+        .gamepod-count-bar{
+            height: auto;
+    margin-top: 2.5rem;
+    color: transparent;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    --tw-rotate: 180deg;
+    width: 100%;
+        }
+
+        .gamepod-avtar-cursor-pointer{
+            cursor: pointer;
+        }
+
+        .cursor-pointer-inside{
+            position: relative;
+            width: 8rem;
+    display: flex;
+        justify-content: center;
+    align-items: center;
+    aspect-ratio: 1 / 1;
+    
+        }
+
+        .cursor-pointer-inside-img{
+                color: transparent;
+    object-position: center;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    position: absolute;
+        display: block;
+    vertical-align: middle;
+        }
+
+        .gamepod-overlay{
+                background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 77.6%);
+    inset: 0;
+    position: absolute;
+        }
+
+        .gamepod-corner1{
+               border-width: 18px 18px 0 0;
+    border-color: #00D5FF transparent transparent #00D5FF;
+    border-style: solid;
+    position: absolute;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 0.15s;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    
+        }
+
+        .gamepod-corner1:hover{
+            top: 0;
+            left: 0;
+        }
+
+        .gamepod-corner2{
+            border-width: 18px 0 0 18px;
+    border-color: transparent transparent #00D5FF #00D5FF;
+    border-style: solid;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 0.15s;
+        position: absolute;
+        height: 0;
+        width: 0;
+        bottom: 0;
+        left: 0;
+        }
+
+
+
+        .gamepod-corner2:hover{
+            left: 0;
+            bottom: 0;
+        }
+
+        .gamepod-corner3{
+            border-width: 0 18px 18px 0;
+    border-color: transparent #00D5FF transparent #00D5FF;
+    border-style: solid;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 0.15s;
+        position: absolute;
+        height: 0;
+        width: 0;
+        right: 0;
+    top: 0;
+        }
+
+
+
+        .gamepod-corner3:hover{
+            right: 0;
+            top: 0;
+        }
+
+        .gamepod-corner4{
+            border-width: 0 0 18px 18px;
+    border-color: #00D5FF transparent #00D5FF transparent;
+    border-style: solid;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 0.15s;
+        position: absolute;
+        height: 0;
+        width: 0;
+            right: 0;
+    bottom: 0;
+        }
+
+
+
+        .gamepod-corner4:hover{
+            right: 0;
+            bottom: 0;
+        }
+
+        .cursor-pointer-inside-name{
+                    font-size: 0.875rem;
+        line-height: 1.25rem;
+        color: rgb(255 255 255 / var(--tw-text-opacity));
+        display: block;
+            text-align: center;
+            position: absolute;
+            right: 0;
+    left: 0;
+    bottom: 0;
+    
+        }
+
+        .avtar-tick-div{
+            padding: 0.25rem;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    aspect-ratio: 1 / 1;
+        box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+        }
+
+
+        .tick-span1{
+                border-color: rgb(0 213 255 / var(--tw-border-opacity));
+    border-top-width: 2px;
+    border-right-width: 2px;
+    width: 0.5rem;
+    height: 0.5rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+        display: inline-block;
+    vertical-align: 0;
+        }
+
+        .tick-span2{
+border-color: rgb(0 213 255 / var(--tw-border-opacity));
+    border-top-width: 2px;
+    border-left-width: 2px;
+    width: 0.5rem;
+    height: 0.5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+        display: inline-block;
+    vertical-align: 0;
+        }
+
+        .tick-span3{
+                border-color: rgb(0 213 255 / var(--tw-border-opacity));
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    width: 0.5rem;
+    height: 0.5rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: inline-block;
+    vertical-align: 0;
+        }
+
+        .tick-span4{
+                border-color: rgb(0 213 255 / var(--tw-border-opacity));
+    border-left-width: 2px;
+    border-bottom-width: 2px;
+    width: 0.5rem;
+    height: 0.5rem;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    display: inline-block;
+    vertical-align: 0;
+        }
+
+        .avtar-tick-div svg{
+                display: block;
+    vertical-align: middle;
+        }
+
+        .gamepod-box-text{
+            margin-top: 0.5rem;
+            text-align: center;
+            display: none;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    font-size: 0.875rem;
+        line-height: 1.25rem;
+        }
+
+        .bottom-top-line{
+            height: auto;
+    margin-top: 2.5rem;
+        color: transparent;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+
+    --tw-rotate: 180deg;
+    width: 100%;
+        }
+
+         @media(max-width: 800px){
+            .gamepod-heading {
+    font-size: 2rem;
+            }
+
+            .gamepod-header{
+                flex-direction: column;
+            }
+        }
+
+
+        @media(max-width: 550px){
+
+
+            /* .gamepod-avtar-option-div{
+                flex-direction: column;
+            } */
+
+            .gamepod-header {
+                flex-direction: column;
+            }
+
+            .gamepod-heading {
+    font-size: 1rem;
+            }
+        }
+
+
+
+
+
+
+
+
