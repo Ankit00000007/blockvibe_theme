@@ -41,7 +41,7 @@ const Footer = () => {
               <h2 className="bv-section-title">OUR STORY</h2>
               <p className="bv-story-text">
                 Established in 2018, BlockVibe has been a key player in
-                technology and money management, helping countless individuals
+                technology, helping countless individuals
                 and businesses adapt to the evolving financial landscape.
               </p>
               <p className="bv-story-text">
